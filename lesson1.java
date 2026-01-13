@@ -16,7 +16,7 @@ public class lesson1 {
            case 5 -> System.out.println("Пятница");
            case 6 -> System.out.println("Суббота");
            case 7 -> System.out.println("Воскресенье");
-           default -> System.out.println("Некорректное число");
+           default ->  System.out.println("Некорректное число");
        }
        in.close();
     }
